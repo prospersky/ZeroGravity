@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ZeroGravity)(type KiCad)(uri ${KIPRJMOD}/ZeroGravity.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri C:/Users/RND-New002/Desktop/ZeroGravity/Library/digikey-footprints.pretty)(options "")(descr ""))
+)

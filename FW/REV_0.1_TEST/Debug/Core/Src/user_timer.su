@@ -1,0 +1,7 @@
+user_timer.c:20:6:UserTimer_Handler	16	static
+user_timer.c:35:6:UserTimer_Start	16	static
+user_timer.c:51:6:UserTimer_Stop	16	static
+user_timer.c:57:6:UserTimer_Pause	16	static
+user_timer.c:62:6:UserTimer_Resume	16	static
+user_timer.c:69:9:UserTimer_Status	16	static
+user_timer.c:74:6:UserTimer_Read	24	static

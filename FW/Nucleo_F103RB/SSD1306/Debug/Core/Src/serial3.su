@@ -1,0 +1,2 @@
+serial3.c:21:5:Serial3_ReadBuff	24	static
+serial3.c:38:6:Serial3_Flush	4	static

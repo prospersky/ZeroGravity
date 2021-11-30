@@ -1,0 +1,4 @@
+switch_control.c:37:6:Switch_Init	8	static
+switch_control.c:48:6:Switch_Task	8	static
+switch_control.c:148:6:HAL_GPIO_EXTI_Callback	16	static
+switch_control.c:197:6:Bluetooth_Process	8	static

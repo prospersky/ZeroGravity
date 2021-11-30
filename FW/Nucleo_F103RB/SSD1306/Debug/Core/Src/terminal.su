@@ -1,0 +1,4 @@
+terminal.c:19:6:Terminal_Task	16	static
+terminal.c:42:4:Terminal_GetData	32	static
+terminal.c:77:5:Terminal_ReadBuff	16	static
+terminal.c:82:5:Tokenize	56	static

@@ -1,0 +1,264 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ZeroGravity-rescue:R1173H331D U?
+U 1 1 616870EE
+P 3520 3860
+AR Path="/616870EE" Ref="U?"  Part="1" 
+AR Path="/61662AB7/616870EE" Ref="U1"  Part="1" 
+F 0 "U1" H 3520 4435 50  0000 C CNN
+F 1 "R1173H331D" H 3520 4344 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-5" H 3520 3860 50  0001 C CNN
+F 3 "" H 3520 3860 50  0001 C CNN
+	1    3520 3860
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 616870F4
+P 4370 3420
+AR Path="/616870F4" Ref="#PWR?"  Part="1" 
+AR Path="/61662AB7/616870F4" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 4370 3270 50  0001 C CNN
+F 1 "+3V3" H 4385 3593 50  0000 C CNN
+F 2 "" H 4370 3420 50  0001 C CNN
+F 3 "" H 4370 3420 50  0001 C CNN
+	1    4370 3420
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 616870FA
+P 3000 3650
+AR Path="/616870FA" Ref="#PWR?"  Part="1" 
+AR Path="/61662AB7/616870FA" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 3000 3400 50  0001 C CNN
+F 1 "GND" H 3005 3477 50  0000 C CNN
+F 2 "" H 3000 3650 50  0001 C CNN
+F 3 "" H 3000 3650 50  0001 C CNN
+	1    3000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3170 3610 3000 3610
+Wire Wire Line
+	3000 3610 3000 3650
+Wire Wire Line
+	3170 3760 3170 3960
+Wire Wire Line
+	3170 3960 3930 3960
+Wire Wire Line
+	4070 3710 3930 3710
+$Comp
+L Device:C_Small C?
+U 1 1 61687105
+P 4370 3740
+AR Path="/61687105" Ref="C?"  Part="1" 
+AR Path="/61662AB7/61687105" Ref="C2"  Part="1" 
+F 0 "C2" H 4620 3760 50  0000 C CNN
+F 1 "106K,2012" H 4640 3660 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4370 3740 50  0001 C CNN
+F 3 "~" H 4370 3740 50  0001 C CNN
+	1    4370 3740
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6168710B
+P 4370 4030
+AR Path="/6168710B" Ref="#PWR?"  Part="1" 
+AR Path="/61662AB7/6168710B" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 4370 3780 50  0001 C CNN
+F 1 "GND" H 4375 3857 50  0000 C CNN
+F 2 "" H 4370 4030 50  0001 C CNN
+F 3 "" H 4370 4030 50  0001 C CNN
+	1    4370 4030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4370 4030 4370 4000
+Wire Wire Line
+	4370 3420 4370 3560
+Wire Wire Line
+	3870 3560 4370 3560
+Connection ~ 4370 3560
+Wire Wire Line
+	4370 3560 4370 3640
+Wire Wire Line
+	4070 3710 4070 3420
+$Comp
+L Device:C_Small C?
+U 1 1 61687117
+P 4070 3860
+AR Path="/61687117" Ref="C?"  Part="1" 
+AR Path="/61662AB7/61687117" Ref="C1"  Part="1" 
+F 0 "C1" H 4030 3640 50  0000 C CNN
+F 1 "105K,1005" H 4010 3560 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4070 3860 50  0001 C CNN
+F 3 "~" H 4070 3860 50  0001 C CNN
+	1    4070 3860
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4070 3710 4070 3760
+Connection ~ 4070 3710
+Wire Wire Line
+	4070 3960 4070 4000
+Wire Wire Line
+	4070 4000 4370 4000
+Connection ~ 4370 4000
+Wire Wire Line
+	4370 4000 4370 3840
+Wire Wire Line
+	3930 3960 3930 3710
+Connection ~ 3930 3710
+Wire Wire Line
+	3930 3710 3870 3710
+$Comp
+L Device:CP1_Small C?
+U 1 1 61687126
+P 2020 5090
+AR Path="/61687126" Ref="C?"  Part="1" 
+AR Path="/61662AB7/61687126" Ref="C4"  Part="1" 
+F 0 "C4" H 2111 5136 50  0000 L CNN
+F 1 "4P,10uF,16V" H 2111 5045 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 2020 5090 50  0001 C CNN
+F 3 "~" H 2020 5090 50  0001 C CNN
+	1    2020 5090
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 6168713E
+P 2290 3350
+AR Path="/6168713E" Ref="#PWR?"  Part="1" 
+AR Path="/61662AB7/6168713E" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 2290 3200 50  0001 C CNN
+F 1 "VBUS" H 2305 3523 50  0000 C CNN
+F 2 "" H 2290 3350 50  0001 C CNN
+F 3 "" H 2290 3350 50  0001 C CNN
+	1    2290 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 61687144
+P 4070 3420
+AR Path="/61687144" Ref="#PWR?"  Part="1" 
+AR Path="/61662AB7/61687144" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 4070 3270 50  0001 C CNN
+F 1 "VBUS" H 4085 3593 50  0000 C CNN
+F 2 "" H 4070 3420 50  0001 C CNN
+F 3 "" H 4070 3420 50  0001 C CNN
+	1    4070 3420
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3400 2290 3400
+Wire Wire Line
+	2290 3400 2290 3350
+$Comp
+L power:GND #PWR?
+U 1 1 6168714E
+P 1900 4090
+AR Path="/6168714E" Ref="#PWR?"  Part="1" 
+AR Path="/61662AB7/6168714E" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 1900 3840 50  0001 C CNN
+F 1 "GND" H 1905 3917 50  0000 C CNN
+F 2 "" H 1900 4090 50  0001 C CNN
+F 3 "" H 1900 4090 50  0001 C CNN
+	1    1900 4090
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2200 3600
+NoConn ~ 2200 3700
+NoConn ~ 2200 3800
+Wire Wire Line
+	1770 4960 1900 4960
+$Comp
+L power:VBUS #PWR?
+U 1 1 6174A571
+P 1900 4890
+AR Path="/6174A571" Ref="#PWR?"  Part="1" 
+AR Path="/61662AB7/6174A571" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 1900 4740 50  0001 C CNN
+F 1 "VBUS" H 1915 5063 50  0000 C CNN
+F 2 "" H 1900 4890 50  0001 C CNN
+F 3 "" H 1900 4890 50  0001 C CNN
+	1    1900 4890
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6174ADB7
+P 1900 5260
+AR Path="/6174ADB7" Ref="#PWR?"  Part="1" 
+AR Path="/61662AB7/6174ADB7" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 1900 5010 50  0001 C CNN
+F 1 "GND" H 1905 5087 50  0000 C CNN
+F 2 "" H 1900 5260 50  0001 C CNN
+F 3 "" H 1900 5260 50  0001 C CNN
+	1    1900 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4960 1900 4890
+Wire Wire Line
+	1900 4960 2020 4960
+Wire Wire Line
+	1770 5260 1900 5260
+Wire Wire Line
+	2020 5260 1900 5260
+Connection ~ 1900 5260
+$Comp
+L Device:C_Small C?
+U 1 1 6168712C
+P 1770 5090
+AR Path="/6168712C" Ref="C?"  Part="1" 
+AR Path="/61662AB7/6168712C" Ref="C3"  Part="1" 
+F 0 "C3" H 1510 5150 50  0000 C CNN
+F 1 "104K,1005" H 1490 5070 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1770 5090 50  0001 C CNN
+F 3 "~" H 1770 5090 50  0001 C CNN
+	1    1770 5090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2020 4960 2020 4990
+Wire Wire Line
+	2020 5190 2020 5260
+Wire Wire Line
+	1770 5190 1770 5260
+Wire Wire Line
+	1770 4990 1770 4960
+Connection ~ 1900 4960
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 61687138
+P 1900 3600
+AR Path="/61687138" Ref="J?"  Part="1" 
+AR Path="/61662AB7/61687138" Ref="J1"  Part="1" 
+F 0 "J1" H 1957 4067 50  0000 C CNN
+F 1 "USB_B_Micro" H 1957 3976 50  0000 C CNN
+F 2 "" H 2050 3550 50  0001 C CNN
+F 3 "~" H 2050 3550 50  0001 C CNN
+	1    1900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4000 1900 4090
+NoConn ~ 1800 4000
+$EndSCHEMATC

@@ -1,0 +1,7 @@
+core_cm3.h:1876:26:ITM_SendChar	16	static,ignoring_inline_asm
+freertos.c:110:6:MX_FREERTOS_Init	8	static
+freertos.c:172:6:StartDefaultTask	16	static
+freertos.c:199:6:StartTask02	16	static
+freertos.c:220:6:StartTask03	16	static
+freertos.c:240:6:Callback01	16	static
+freertos.c:249:6:Task_Action	16	static

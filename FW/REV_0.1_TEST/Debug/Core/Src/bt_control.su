@@ -1,0 +1,2 @@
+bt_control.c:11:6:bluetooth_task	4	static
+bt_control.c:17:6:packet_parsing	4	static
